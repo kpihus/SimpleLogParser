@@ -1,0 +1,35 @@
+{
+  "name": "simplelogparser",
+  "version": "1.0.0",
+  "main": "./parser.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha \"test/**/*.spec.js\" --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kpihus/SimpleLogParser.git"
+  },
+  "author": "Kristjan Pihus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kpihus/SimpleLogParser/issues"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "moment": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "es-abstract": "^1.13.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
